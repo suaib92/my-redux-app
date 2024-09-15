@@ -1,0 +1,20 @@
+.perspective {
+    perspective: 1000px;
+  }
+  
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .hover\:rotate-y-180:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .transform {
+    transition: transform 0.5s;
+  }
+  
